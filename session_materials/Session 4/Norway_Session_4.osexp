@@ -213,6 +213,7 @@ define sequence Session4
 	run process_beginning always
 	run selected_tasks always
 	run session_end_time always
+	run logger always
 	run end_of_session always
 	run end_of_session_en always
 	run continue_c always

@@ -95,11 +95,11 @@ The materials are version-controlled, and the release notes follow below.
 
 * v1.2.2
 
-  - Fix bug in Session 6 that caused interruption of the session in the gender assignment task. 
-    To this end, the 'session' variable was removed from the stimulus files of the experiment 
-    part, to prevent it from interfering with the variable that is set in OpenSesame.
+  - Fix bug in Session 6 that caused crash in the gender assignment task. To this end, the 
+    'session' variable was removed from the stimulus files of the experiment part, to 
+    prevent it from interfering with the variable that is set in OpenSesame.
     
-  - Ensure the recording of the session end time in the logfiles produced by OpenSesame. To 
-    this end, a logger item was added after the inline script 'session_end_time'.
+  - Ensure the recording of the session end time in the logfiles produced by OpenSesame. 
+    To this end, a logger item was added after the inline script 'session_end_time'.
 
 

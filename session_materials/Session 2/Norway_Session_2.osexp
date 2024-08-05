@@ -234,6 +234,7 @@ define sequence Session2
 	run process_beginning always
 	run selected_tasks always
 	run session_end_time always
+	run logger always
 	run end_of_session "[language] != 'Mini-English'"
 	run end_of_session_en "[language] == 'Mini-English'"
 	run continue_c always

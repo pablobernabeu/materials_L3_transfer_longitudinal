@@ -26,7 +26,7 @@ set font_size 18
 set font_italic no
 set font_family mono
 set font_bold no
-set experiment_path "C:/Users/pbe044/OneDrive - UiT Office 365/Pablo_LESS/session_materials/Session 6"
+set experiment_path "C:\\Users\\pbe044\\OneDrive - UiT Office 365\\Pablo_LESS\\session_materials\\Session 6"
 set disable_garbage_collection yes
 set description "The main experiment item"
 set coordinates uniform
@@ -346,6 +346,7 @@ define sequence Session6
 	run process_beginning always
 	run selected_tasks always
 	run session_end_time always
+	run logger always
 	run end_of_session always
 	run end_of_session_en always
 	run continue_c always
