@@ -300,8 +300,6 @@ Sessions_4_6_Experiment_gender_agreement =
     # 
     # Afterwards, add EEG triggers to identify grammaticality conditions:
     # grammatical = 101; gender violation = 102; number violation = 103
-    # 
-    # Last, add variable to identify the session. 
     
     combinations = combinations %>% mutate( 
       
@@ -312,9 +310,7 @@ Sessions_4_6_Experiment_gender_agreement =
         ifelse(grammaticality == 'grammatical', 101,
                ifelse(grammaticality == 'gender violation', 102,
                       ifelse(grammaticality == 'number violation', 103, 
-                             '' ) ) ),
-      
-      session = 'Session 4'
+                             '' ) ) )
     )
     
     # Based on languages and conditions, identify ERP-target word 
@@ -577,7 +573,7 @@ Sessions_4_6_Experiment_gender_agreement =
       select(materials_version, language, list, noun_adj_ID, gender, number, 
              grammaticality, correct_response, grammatical_property, 
              grammatical_property_trigger, grammaticality_trigger, 
-             sentence, sentence_trigger, session, target_word_location, 
+             sentence, sentence_trigger, target_word_location, 
              target_word_trigger, verb_type, word1, word1_duration, word2, 
              word2_duration, word3, word3_duration, word4, word4_duration, 
              word5, word5_duration, word6, word6_duration, word7, 

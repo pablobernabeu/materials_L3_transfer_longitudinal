@@ -166,8 +166,6 @@ Sessions_4_6_Experiment_differential_object_marking =
     # 
     # Afterwards, add EEG triggers to identify grammaticality conditions:
     # grammatical = 101; DOM violation = 102; article location violation = 103
-    # 
-    # Last, add variable to identify the session. 
     
     combinations = combinations %>% mutate( 
       
@@ -178,9 +176,7 @@ Sessions_4_6_Experiment_differential_object_marking =
         ifelse(grammaticality == 'grammatical', 101,
                ifelse(grammaticality == 'DOM violation', 102,
                       ifelse(grammaticality == 'article location violation', 103, 
-                             '' ) ) ),
-      
-      session = 'Session 4'
+                             '' ) ) )
     )
     
     
@@ -654,7 +650,7 @@ Sessions_4_6_Experiment_differential_object_marking =
       # Store key components associated with each sentence
       select(materials_version, language, list, number, verb_noun_ID, grammaticality, 
              correct_response, grammatical_property, grammatical_property_trigger, 
-             grammaticality_trigger, sentence, sentence_trigger, session, 
+             grammaticality_trigger, sentence, sentence_trigger, 
              target_word_location, target_word_trigger, word1, word1_duration, 
              word2, word2_duration, word3, word3_duration, word4, word4_duration, 
              word5, word5_duration, word6, word6_duration, word7, word7_duration, 
