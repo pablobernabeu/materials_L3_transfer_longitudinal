@@ -2,7 +2,7 @@
 
 # Images were obtained from three sources: 
 # (I) MultiPic (Duñabeitia et al., 2018,
-#     https://doi.org/10.1080/17470218.2017.1310261);
+#   https://doi.org/10.1080/17470218.2017.1310261);
 # (II) https://www.flaticon.com;
 # (III) https://www.freepik.com
 
@@ -86,5 +86,4 @@ for(i in 1:length(base_images)) {
     # Save
     image_write(paste0(image_dir, base_images[i]))
 }
-
 

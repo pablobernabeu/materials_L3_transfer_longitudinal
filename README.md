@@ -1,6 +1,13 @@
-# L3_transfer_longitudinal
- 
-Complete project at https://osf.io/974k8/?view_only=7e8aaea4488b442a8ac126a702499c5f.
 
-Also see https://pablobernabeu.github.io/presentation/making-research-materials-findable-accessible-interoperable-reusable-fair
+
+This readme file contains the most general notes. Further readme files 
+exist in subsequent folders. For instance, the experimenters 
+facilitating the lab sessions are advised to read the readme file in 
+the session_materials folder.
+
+== Session materials ==
+
+The stimuli are prepared in the 'stimulus_preparation' folder, and 
+stored in the 'session_materials' folder, along with the OpenSesame 
+file for each session.
 
