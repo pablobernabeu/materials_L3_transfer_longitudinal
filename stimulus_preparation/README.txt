@@ -121,4 +121,17 @@ The materials are version-controlled, and the release notes follow below.
     namely, introducing an indirect object.
 
 
+* v1.2.5
+
+  - A few English words were detected within the stimuli of the gender assignment task in 
+    Norwegian, so they were substituted with Norwegian words. The proportion of items 
+    across genders remained balanced.
+
+  - Examples of neuter and non-neuter words were added to the instructions of the gender 
+    assignment task in Norwegian, as some participants had inquired about the meaning of 
+    'neuter'. 
+
+
+
+
 
