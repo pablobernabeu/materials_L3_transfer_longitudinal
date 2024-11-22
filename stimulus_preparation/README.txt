@@ -132,6 +132,13 @@ The materials are version-controlled, and the release notes follow below.
     'neuter'. 
 
 
+* v1.2.6
 
-
+  - A few words were replaced in the gender assignment task in Norwegian. First, twoo words 
+    were replaced because they were not nouns--namely, 'selvom' (meaning 'although') and 
+    'vist' (meaning 'shown'). Second, the word 'selvmord' (meaning 'suicide') was replaced 
+    due to its unpleasant meaning. To make these substitutions, the whole set of words used 
+    in this task was recreated using the corpus. This process required the automatic 
+    substitution of a few other words, to ensure a balance in the proportion of items per 
+    gender (namely, 50% neuter, 25% feminine and 25% masculine). 
 
