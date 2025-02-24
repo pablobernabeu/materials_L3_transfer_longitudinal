@@ -1,13 +1,13 @@
 
 
-# Materials for "Starting from the very beginning: Unraveling third language (L3) development with longitudinal data from artificial language learning and related epistemology"
+# Materials for 'Starting from the very beginning: Unraveling third language (L3) development with longitudinal data from artificial language learning and related epistemology'
 
 ## Content 
 
-The present repository contains the materials presented in González Alonso
-et al. (2025). These materials are more findable, accessible, interoperable, 
-reproducible and reusable than the materials of most related studies (see 
-[poster](https://osf.io/h83yq)).
+The present repository contains the materials presented in [González Alonso
+et al. (2025)](https://doi.org/10.1080/14790718.2024.2415993). These materials 
+are more findable, accessible, interoperable, reproducible and reusable than 
+the materials of most related studies (see [poster](https://osf.io/h83yq)).
 
 ## Complete materials
 
